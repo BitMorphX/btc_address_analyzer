@@ -1,0 +1,20 @@
+name: btc_address_analyzer
+version: 2.0.0
+description: Bitcoin Base58 address decoder and analyzer with checksum validation and payload parsing.
+license: MIT
+language: Python
+entry_point: btc_address_analyzer.py
+tags:
+  - bitcoin
+  - base58
+  - checksum
+  - cli
+  - python
+  - crypto
+  - address-validation
+  - hash160
+  - analyzer
+  - learning
+dependencies:
+  - base58
+  - termcolor
