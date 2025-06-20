@@ -1,9 +1,12 @@
 name: btc_address_analyzer
 version: 2.0.0
 description: Bitcoin Base58 address decoder and analyzer with checksum validation and payload parsing.
-license: MIT
+author: BitMorphX
+license: Apache-2.0
 language: Python
+python_version: ">=3.8"
 entry_point: btc_address_analyzer.py
+repository: https://github.com/BitMorphX/btc_address_analyzer
 tags:
   - bitcoin
   - base58
@@ -18,3 +21,7 @@ tags:
 dependencies:
   - base58
   - termcolor
+dev_dependencies:
+  - black
+  - pylint
+  - pytest
